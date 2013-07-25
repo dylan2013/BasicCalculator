@@ -17,6 +17,10 @@ namespace WindowsFormsApplication2
         {
             InitializeComponent();
 
+            //aa/
+            //bb/
+            //cc/
+
             this.btNumber0.Click += new System.EventHandler(this.button_Click);
             this.btNumber1.Click += new System.EventHandler(this.button_Click);
             this.btNumber2.Click += new System.EventHandler(this.button_Click);
