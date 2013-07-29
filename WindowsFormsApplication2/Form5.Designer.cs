@@ -54,7 +54,7 @@
             this.btNumber2.Location = new System.Drawing.Point(12, 172);
             this.btNumber2.Name = "btNumber2";
             this.btNumber2.Size = new System.Drawing.Size(75, 23);
-            this.btNumber2.TabIndex = 0;
+            this.btNumber2.TabIndex = 3;
             this.btNumber2.Text = "2";
             this.btNumber2.UseVisualStyleBackColor = true;
             // 
@@ -63,7 +63,7 @@
             this.btNumber1.Location = new System.Drawing.Point(12, 130);
             this.btNumber1.Name = "btNumber1";
             this.btNumber1.Size = new System.Drawing.Size(75, 23);
-            this.btNumber1.TabIndex = 1;
+            this.btNumber1.TabIndex = 2;
             this.btNumber1.Text = "1";
             this.btNumber1.UseVisualStyleBackColor = true;
             // 
@@ -72,7 +72,7 @@
             this.btNumber0.Location = new System.Drawing.Point(12, 88);
             this.btNumber0.Name = "btNumber0";
             this.btNumber0.Size = new System.Drawing.Size(75, 23);
-            this.btNumber0.TabIndex = 2;
+            this.btNumber0.TabIndex = 1;
             this.btNumber0.Text = "0";
             this.btNumber0.UseVisualStyleBackColor = true;
             // 
@@ -81,7 +81,7 @@
             this.btNumber5.Location = new System.Drawing.Point(94, 173);
             this.btNumber5.Name = "btNumber5";
             this.btNumber5.Size = new System.Drawing.Size(75, 23);
-            this.btNumber5.TabIndex = 3;
+            this.btNumber5.TabIndex = 6;
             this.btNumber5.Text = "5";
             this.btNumber5.UseVisualStyleBackColor = true;
             // 
@@ -90,7 +90,7 @@
             this.btNumber4.Location = new System.Drawing.Point(94, 130);
             this.btNumber4.Name = "btNumber4";
             this.btNumber4.Size = new System.Drawing.Size(75, 23);
-            this.btNumber4.TabIndex = 4;
+            this.btNumber4.TabIndex = 5;
             this.btNumber4.Text = "4";
             this.btNumber4.UseVisualStyleBackColor = true;
             // 
@@ -99,7 +99,7 @@
             this.btNumber3.Location = new System.Drawing.Point(94, 87);
             this.btNumber3.Name = "btNumber3";
             this.btNumber3.Size = new System.Drawing.Size(75, 23);
-            this.btNumber3.TabIndex = 5;
+            this.btNumber3.TabIndex = 4;
             this.btNumber3.Text = "3";
             this.btNumber3.UseVisualStyleBackColor = true;
             // 
@@ -108,7 +108,7 @@
             this.btN1.Location = new System.Drawing.Point(199, 88);
             this.btN1.Name = "btN1";
             this.btN1.Size = new System.Drawing.Size(44, 23);
-            this.btN1.TabIndex = 6;
+            this.btN1.TabIndex = 7;
             this.btN1.Text = "+";
             this.btN1.UseVisualStyleBackColor = true;
             // 
@@ -117,7 +117,7 @@
             this.btN2.Location = new System.Drawing.Point(199, 117);
             this.btN2.Name = "btN2";
             this.btN2.Size = new System.Drawing.Size(44, 23);
-            this.btN2.TabIndex = 7;
+            this.btN2.TabIndex = 8;
             this.btN2.Text = "-";
             this.btN2.UseVisualStyleBackColor = true;
             // 
@@ -126,7 +126,7 @@
             this.btN5.Location = new System.Drawing.Point(265, 88);
             this.btN5.Name = "btN5";
             this.btN5.Size = new System.Drawing.Size(75, 81);
-            this.btN5.TabIndex = 8;
+            this.btN5.TabIndex = 11;
             this.btN5.Text = "=";
             this.btN5.UseVisualStyleBackColor = true;
             this.btN5.Click += new System.EventHandler(this.btN5_Click);
@@ -137,7 +137,7 @@
             this.lab1.Location = new System.Drawing.Point(50, 28);
             this.lab1.Name = "lab1";
             this.lab1.Size = new System.Drawing.Size(0, 12);
-            this.lab1.TabIndex = 9;
+            this.lab1.TabIndex = 0;
             // 
             // lab3
             // 
@@ -145,7 +145,7 @@
             this.lab3.Location = new System.Drawing.Point(160, 28);
             this.lab3.Name = "lab3";
             this.lab3.Size = new System.Drawing.Size(0, 12);
-            this.lab3.TabIndex = 10;
+            this.lab3.TabIndex = 2;
             // 
             // lab5
             // 
@@ -153,7 +153,7 @@
             this.lab5.Location = new System.Drawing.Point(250, 28);
             this.lab5.Name = "lab5";
             this.lab5.Size = new System.Drawing.Size(29, 12);
-            this.lab5.TabIndex = 11;
+            this.lab5.TabIndex = 4;
             this.lab5.Text = "結果";
             // 
             // lab2
@@ -162,7 +162,7 @@
             this.lab2.Location = new System.Drawing.Point(105, 28);
             this.lab2.Name = "lab2";
             this.lab2.Size = new System.Drawing.Size(41, 12);
-            this.lab2.TabIndex = 12;
+            this.lab2.TabIndex = 1;
             this.lab2.Text = "運算元";
             // 
             // lab4
@@ -171,7 +171,7 @@
             this.lab4.Location = new System.Drawing.Point(221, 28);
             this.lab4.Name = "lab4";
             this.lab4.Size = new System.Drawing.Size(11, 12);
-            this.lab4.TabIndex = 13;
+            this.lab4.TabIndex = 3;
             this.lab4.Text = "=";
             // 
             // btN3
@@ -179,7 +179,7 @@
             this.btN3.Location = new System.Drawing.Point(199, 146);
             this.btN3.Name = "btN3";
             this.btN3.Size = new System.Drawing.Size(44, 23);
-            this.btN3.TabIndex = 14;
+            this.btN3.TabIndex = 9;
             this.btN3.Text = "*";
             this.btN3.UseVisualStyleBackColor = true;
             // 
@@ -188,7 +188,7 @@
             this.btN4.Location = new System.Drawing.Point(199, 175);
             this.btN4.Name = "btN4";
             this.btN4.Size = new System.Drawing.Size(44, 23);
-            this.btN4.TabIndex = 15;
+            this.btN4.TabIndex = 10;
             this.btN4.Text = "/";
             this.btN4.UseVisualStyleBackColor = true;
             // 
@@ -197,7 +197,7 @@
             this.button1.Location = new System.Drawing.Point(265, 174);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 16;
+            this.button1.TabIndex = 12;
             this.button1.Text = "C";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
@@ -212,13 +212,13 @@
             this.panel1.Location = new System.Drawing.Point(12, 12);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(328, 69);
-            this.panel1.TabIndex = 17;
+            this.panel1.TabIndex = 0;
             // 
             // Form5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(357, 208);
+            this.ClientSize = new System.Drawing.Size(356, 207);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btN4);

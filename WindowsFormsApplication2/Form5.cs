@@ -20,8 +20,7 @@ namespace WindowsFormsApplication2
             //aa/
             //bb/
             //cc/
-
-            this.btNumber0.Click += new System.EventHandler(this.button_Click);
+    
             this.btNumber1.Click += new System.EventHandler(this.button_Click);
             this.btNumber2.Click += new System.EventHandler(this.button_Click);
             this.btNumber3.Click += new System.EventHandler(this.button_Click);
@@ -40,7 +39,7 @@ namespace WindowsFormsApplication2
 
             if (目前的狀態 == 狀態.第一步)
             {
-                lab1.Text += btn.Text;
+                lab1.Text = btn.Text;
                 目前的狀態 = 狀態.運算元;
             }
             else if (目前的狀態 == 狀態.第二步)
@@ -101,9 +100,9 @@ namespace WindowsFormsApplication2
 
         private void button1_Click(object sender, EventArgs e)
         {
-            lab1.Text = "請輸入1";
+            lab1.Text = "";
             lab2.Text = "運算元";
-            lab3.Text = "請輸入2";
+            lab3.Text = "";
             lab4.Text = "等於";
             lab5.Text = "結果";
             目前的狀態 = 狀態.第一步;
